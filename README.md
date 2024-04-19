@@ -2,42 +2,42 @@ Task for Laravel/WordPress:
 
 1.	Create Products API with following JSON and Pagination
 
-Explanation
+				Explanation
 
-a.	Created a products model and seeder.
+				a.	Created a products model and seeder.
 
-b.	Required JSON structure defined in Model.
+				b.	Required JSON structure defined in Model.
 
-c.	Controller returns paginated results.
+				c.	Controller returns paginated results.
 
-d.	get-products api to fetch results.
+				d.	get-products api to fetch results.
 
 
 
 2.	Create User Registration/Login API
 
-Registration
+				Registration
 
-a.	Routes defined in api.php
+				a.	Routes defined in api.php
 
-b.	Validated required fields.
+				b.	Validated required fields.
 
-c.	Created a user in users table.
+				c.	Created a user in users table.
 
-d.	Created token if validation is success. 
+				d.	Created token if validation is success. 
 
-Login
+				Login
 
-e.	Routes defined in api.php
+				e.	Routes defined in api.php
 
-f.	Validated required fields.
+				f.	Validated required fields.
 
-g.	Created token if validation is success. 
+				g.	Created token if validation is success. 
 
 
 
 3.	Make 2 API End point one Endpoint accessible without token and Second API Endpoint Token (If not token then give message unauthorized)
 
-a.	Defined two endpoints in api.php
+				a.	Defined two endpoints in api.php
 
-b.	Added a middleware to private endpoint. 
+				b.	Added a middleware to private endpoint. 
